@@ -1,0 +1,16 @@
+# This is a comment.
+# Each line is a file pattern followed by one or more owners.
+
+# Default owner for all files in the repository.
+*       @ac-bushrakhan
+
+# Owner for all files in the repository for a specific team.
+# Removed the duplicate wildcard rule to avoid conflicts.
+#just adding another commit
+
+# Custom code owners for specific directories.
+# Ensure these directories or files exist in the repo.
+/test/cypress/              @ac-PragatiDubey
+/frontend/src/app/score-board @chawlaInderjeet
+
+*       @Armor-Test2/dev-team-at2
